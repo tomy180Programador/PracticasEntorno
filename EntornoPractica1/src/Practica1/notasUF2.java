@@ -109,7 +109,7 @@ public class notasUF2 {
         notasUF2 fc = new notasUF2();
         
         // Llamamos a los métodos para ingresar notas, verificarlas, calcular la nota definitiva, mostrar resultados y determinar si el estudiante aprobó
-        fc.IngresaNotas(7.5, 8.0, 8.0);
+        fc.IngresaNotas(7.5, 8.0, 9.0);
         fc.comprobacion();
         fc.Calculonotas();
         fc.Mostrar();
