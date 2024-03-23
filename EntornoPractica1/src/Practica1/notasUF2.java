@@ -59,7 +59,7 @@ public class notasUF2 {
      * Este método calcula la nota definitiva del estudiante.
      */
     public void Calculonotas() {
-        acu1 = uf1 * 0.35;
+        acu1 = uf1 * 0.45;
         acu2 = uf2 * 0.35;
         acu3 = uf3 * 0.30;
         
