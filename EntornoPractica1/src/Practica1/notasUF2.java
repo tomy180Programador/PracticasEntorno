@@ -37,7 +37,7 @@ public class notasUF2 {
      */
     public void comprobacion(){
         if (uf1 > 10) {
-            System.out.println("Nota 1 mal introducida");
+            System.out.println("Nota 1 mal introducida, inténtalo de nuevo");
         } else {
             System.out.println("Nota 1 correcta");
         }
@@ -109,7 +109,7 @@ public class notasUF2 {
         notasUF2 fc = new notasUF2();
         
         // Llamamos a los métodos para ingresar notas, verificarlas, calcular la nota definitiva, mostrar resultados y determinar si el estudiante aprobó
-        fc.IngresaNotas(7.5, 8.0, 7.0);
+        fc.IngresaNotas(7.5, 8.0, 8.0);
         fc.comprobacion();
         fc.Calculonotas();
         fc.Mostrar();
