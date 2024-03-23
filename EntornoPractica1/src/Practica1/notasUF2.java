@@ -39,7 +39,7 @@ public class notasUF2 {
         if (uf1 > 10) {
             System.out.println("Nota 1 mal introducida, inténtalo de nuevo");
         } else {
-            System.out.println("Nota 1 correcta");
+            System.out.println("Nota 1 correcta, sigue así");
         }
         
         if (uf2 > 10) {
